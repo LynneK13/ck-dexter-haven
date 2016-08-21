@@ -1,0 +1,42 @@
+<!-- TWO STEPS TO INSTALL PASSWORD PROTECTION (GATEKEEPER):
+
+   1.  Put the designated coding into the HEAD of your login document
+   2.  Paste the final coding into the BODY of your login document  -->
+
+<!-- STEP ONE: Copy this code into the HEAD of your login document  -->
+
+<HEAD>
+
+<SCRIPT LANGUAGE="javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var nifty_little_window = null;
+function gateKeeper() {
+nifty_little_window = window.open('gatekeep.html', 'theKeeper', 'width=350,height=200,resizable=1');
+}
+// End -->
+</SCRIPT>
+
+<!-- STEP TWO: Copy this code into the BODY of your login document  -->
+
+<BODY>
+
+<CENTER>
+<A HREF="" onMouseOver="gateKeeper()">Access the protected area.</A><BR>
+<P>
+Or, click Enter...<BR>
+<FORM NAME="gatekeeperbutton" ACTION="" onSubmit="gateKeeper()">
+<input type="submit" value="Enter!">
+</FORM>
+
+</CENTER>
+
+<p><center>
+<font face="arial, helvetica" size="-2">Free JavaScripts provided<br>
+by <a href="http://javascriptsource.com">The JavaScript Source</a></font>
+</center><p>
+
+<!-- Script Size:  0.64 KB  -->
